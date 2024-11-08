@@ -31,6 +31,7 @@ CREATE TABLE retail_sales
     cogs FLOAT,
     total_sale FLOAT
 );
+
 **2. Data Exploration & Cleaning**
 Record Count: Determine the total number of records in the dataset.
 Customer Count: Find out how many unique customers are in the dataset.
@@ -51,6 +52,7 @@ WHERE
     sale_date IS NULL OR sale_time IS NULL OR customer_id IS NULL OR 
     gender IS NULL OR age IS NULL OR category IS NULL OR 
     quantity IS NULL OR price_per_unit IS NULL OR cogs IS NULL;
+    
 **3. Data Analysis & Findings**
 The following SQL queries were developed to answer specific business questions:
 
